@@ -1,0 +1,441 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: aliceblue;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#imageee{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+#imageeeee{
+  border-radius: 50%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+
+}
+
+ /* #Heroo{
+  margin-top: 100px;
+}   */
+#Email{
+margin-left: 10px;
+}
+body{
+  background-color: white;
+}
+ /* #navv {
+  background-color: rgb(186 230 253);
+    position: fixed;  
+    width: 100%;  
+  margin-top: -100px;   
+   
+}  */
+
+#Cleaning {
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-left: 14px;
+}
+
+#CCo {
+  background-color: aliceblue;
+}
+
+#C {
+  color: rgb(30 64 175);
+  
+}
+
+#h {
+  letter-spacing: 1px;
+  text-align: left;
+}
+p {
+  text-align: left;
+
+}
+
+#hover:hover {
+  color: blue;
+}
+
+#i {
+      box-shadow: 0px 0px 3px silver;
+      border-bottom-left-radius: 10%;
+      border-top-right-radius: 10%;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+
+  
+#Clean {
+  display: flex;
+  justify-content: center;
+  margin-left: -204px;
+  margin-bottom: -31px;
+}
+ 
+ #card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}  
+
+/* #image {
+  max-width: 75%;
+  height: auto;
+  margin: 45px;
+  border-bottom-left-radius: 5%;
+ border-bottom-right-radius: 5%;
+} */
+
+h5 {
+  text-align: left;
+}
+
+#l {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  background-color: ghostwhite;
+}
+
+#l:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: ghostwhite;
+}
+
+#ll {
+  transition: 0.4s;
+
+}
+
+#ll:hover {
+  transform: translateY(-10px);
+}
+
+#lll {
+  transition: 0.4s;
+
+}
+
+#lll:hover {
+  transform: translateY(-10px);
+}
+
+* {
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+#osa {
+  margin-top: -57.2px;
+}
+
+
+
+.keep ,h1 {
+  font-weight: 800;
+  font-size: 30px;
+}
+#text {
+  color: black  ;
+}
+
+
+.bn632-hover {
+  width: 130px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn28 {
+  background-image: linear-gradient(
+    to right,
+    #80d8ff,
+    #4977E5 ,
+    #00b0ff,
+    #448aff
+  );
+  box-shadow: 0 5px 15px rgba(97, 145, 242, 0.4);
+}
+
+.bg-gray-100 {
+  background-color: white;
+}
+
+#k {
+  background-color: ghostwhite;
+}
+
+  #mn {
+  display: flex;
+  justify-content: space-evenly;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}  
+
+
+#social {
+  display: flex;
+  justify-content: space-around;
+}
+
+#reg {
+  background-color: white;
+}
+
+#regg {
+  background-color: #EEEEEE;
+}
+
+#immm {
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+#fff {
+  background-color: #bce1ff;
+}
+
+/* #Mustafa {
+  background-color: #64a8df;
+} */
+
+#lala {
+ transition: transform 0.3s ease, box-shadow 0.3s ease; 
+ background-color: ghostwhite;
+
+}
+
+#lala:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: ghostwhite;
+}
+
+#lalala {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  background-color: ghostwhite;
+
+}
+
+#lalala:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: ghostwhite;
+}
+
+#lalalala {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+}
+
+#lalalala:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: ghostwhite;
+}
+
+.font-medium {
+  margin-left: 52px;
+}
+
+/* #ddd {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+
+/* #back {
+   background-image: url("https://pennstatehealthnews.org/wp-content/uploads/2019/05/050119-spring-clean.jpg"); 
+  background-size: cover;
+} */
+
+/* #google {
+  margin-left: -1px;
+} */
+
+#contact {
+  background-color: rgb(248 250 252);
+}
+.osama {
+  height: 500px; 
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+   margin-top: 70px;
+
+
+}
+.hero-slide {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.5); /* خلفية بلون أسود شفاف للنص */
+  padding: 200px;
+  width: 100%;
+  height: 100%;
+  /* border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 50px; */
+
+
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  margin-left: 320px;
+  margin-top: 10px;
+}
+
+/* .hero-text button {
+  background-color: #000;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+/* يمكنك تخصيص الأنماط الخاصة بك هنا */
+#tt {
+margin-left: 26px;
+}
+
+#dat {
+  margin-top: 70px;
+}
+
+#ssssss {
+  margin-top: -30px;
+}
+
+/* #koko {
+  margin-right: 100px;
+}  */
+
+/* #dffd {
+  margin-right: -100px;
+} */
+
+#lk {
+  margin-left: 60px;
+}
+
+/* .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: .25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+  margin-right: .5rem!important;
+} */
+
+#Read {
+  margin-left: 230px;
+}
+
+#priceee {
+  margin-left: -360px;
+}
+
+.font-medium {
+  margin-left: 1px;
+}
+/* #Us {
+  color: #60a5fa;
+
+} */
+
+#hr {
+  background-color:#60a5fa;
+  height: 1px;
+  width: 100%;
+}
